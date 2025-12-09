@@ -2,6 +2,7 @@
 =============
 * GitHub issues:
     * [#24229](https://github.com/magento/magento2/issues/24229) -- Unable to enable maintenance mode when env.php is read only (fixed in [magento/magento2#25790](https://github.com/magento/magento2/pull/25790))
+    * [#24229](https://github.com/magento/magento2/issues/24229) -- Unable to enable maintenance mode when env.php is read only (fixed in [magento/magento2#25790](https://github.com/magento/magento2/pull/25790))
     * [#22416](https://github.com/magento/magento2/issues/22416) -- Coupling beetwen Magento_Checkout::js/view/shipping.js:validateShippingInformation() and layout definition or view.  (fixed in [magento/magento2#25541](https://github.com/magento/magento2/pull/25541))
     * [#25739](https://github.com/magento/magento2/issues/25739) -- grunt clean does not clean generated folder (fixed in [magento/magento2#25765](https://github.com/magento/magento2/pull/25765))
     * [#25654](https://github.com/magento/magento2/issues/25654) -- Magento OpenGraph meta description / title content bleeding (fixed in [magento/magento2#25655](https://github.com/magento/magento2/pull/25655))
