@@ -43,12 +43,11 @@ jobs:
           composer validate --no-check-publish
           composer install --prefer-dist --no-dev --optimize-autoloader --no-progress --quiet
 
-      - name: Remove .git path
-        id: remove_git_path
-        if: steps.config_auth_magento_composer.outcome == 'success' && steps.check_files.outputs.files_exists == 'true'
-        run: |
-          rm -rf .git
-          echo "Diretório .git removido com sucesso."
+      # - name: Run composer update if composer.json exists
+      #   id: composer_install
+      #   if: steps.config_auth_magento_composer.outcome == 'success' && steps.check_files.outputs.files_exists == 'true'
+      #   run: |
+      #     composer update
 
       - name: Configurar acesso SSH
         id: configure_ssh_on_server
