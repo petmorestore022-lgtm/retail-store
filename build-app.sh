@@ -40,4 +40,4 @@ php -d memory_limit=2G bin/magento indexer:reindex
 
 php -d memory_limit=2G bin/magento cache:clean
 
-chown -R www-data:www-data .
+chown -R www-data:www-data var pub generated vendor app/etc
